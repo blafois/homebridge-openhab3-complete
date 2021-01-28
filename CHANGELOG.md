@@ -1,12 +1,11 @@
 # Changelog of homebridge-openhab2-complete
 ## Roadmap
-### V1.3.0 (planned)
-* Code audit & documentation
-* Homebridge verification, including:
-  * Handling all thrown exceptions
-  * Supporting GUI configuration
 
 ## Changelog
+
+### V3.0.0
+* Now compatible with openHAB 3
+
 ### V1.2.0
 * Extended `NumericSensor` and `NumericSensorActor` capabilities to support `Rollershutter` and `Dimmer` types.
 * Homebridge no longer crashes if openHAB's host is not available
