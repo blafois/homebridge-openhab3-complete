@@ -4,7 +4,7 @@ const crypto = require('crypto');
 
 function generate(name, type) {
     const hash = crypto.createHash('sha512');
-    hash.update(name);
+    hash.update(name+'oh3');
     hash.update(type);
 
 
