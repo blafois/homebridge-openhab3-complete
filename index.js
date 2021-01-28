@@ -3,7 +3,7 @@ const {sleep} = require('./util/Util');
 
 const version = require('./package').version;
 const platformName = require('./package').name;
-const platformPrettyName = 'openHAB2-Complete';
+const platformPrettyName = 'openHAB3-Complete';
 
 const SerialNumberGenerator = require('./util/SerialNumberGenerator');
 const {OpenHAB} = require('./util/OpenHAB');
@@ -83,7 +83,7 @@ const OpenHABComplete = class {
         this._log.info(`openHAB host (${config.host}) is online, now syncing...`);
         this._platform.openHAB.syncItemTypes();
 
-        this._log.info(`'OpenHAB2 - Complete Edition' plugin loaded - Version ${version} - dev`);
+        this._log.info(`'OpenHAB3 - Complete Edition' plugin loaded - Version ${version} - dev`);
         this._log.info(`---`);
     }
 

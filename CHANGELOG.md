@@ -1,10 +1,10 @@
-# Changelog of homebridge-openhab2-complete
+# Changelog of homebridge-openhab3-complete
 ## Roadmap
 
 ## Changelog
 
 ### V3.0.0
-* Now compatible with openHAB 3
+* Now compatible with openHAB 3. This new package is entirely based on work from @SteilerDev, and integrating PR suggested by @DanielKnoop and @D-J-See
 
 ### V1.2.0
 * Extended `NumericSensor` and `NumericSensorActor` capabilities to support `Rollershutter` and `Dimmer` types.
@@ -87,7 +87,7 @@ Issues:
   * Irrigation
 * Added Garage Door Opener Accessory
 * Support for `Number` types with Unit of Measurement
-  
+
 **Breaking changes**:
 * Renamed light sensor's accessory type from `lightSensor` to `lux`
 
